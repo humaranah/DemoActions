@@ -5,11 +5,7 @@ name: .NET Build
 
 on:
   push:
-    branches:
-      - '**'
-    branches-ignore:
-      - develop
-      - master
+    branches-ignore: [ "master", "develop" ]
   workflow_dispatch:
 
 jobs:
