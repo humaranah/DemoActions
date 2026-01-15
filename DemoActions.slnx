@@ -1,3 +1,8 @@
 <Solution>
-  <Project Path="DemoActions/DemoActions.csproj" />
+  <Folder Name="/src/">
+    <Project Path="src/DemoActions/DemoActions.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/DemoActions.UnitTests/DemoActions.UnitTests.csproj" Id="4b9bc609-6092-441b-b25f-4d2ce5615102" />
+  </Folder>
 </Solution>
